@@ -6,7 +6,7 @@ for(let i = 1; i < 101; i++){
     let box = document.createElement('div');
     wrapper.append(box);
     wrapper.classList.add('d-flex', 'flex-wrap');
-    box.classList.add('box','border','d-flex', 'justify-content-center', 'align-items-center');
+    box.classList.add('box','border','d-flex', 'justify-content-center', 'align-items-center', 'bg-secondary');
     let boxIndex = i;
     box.innerHTML = boxIndex;
 
